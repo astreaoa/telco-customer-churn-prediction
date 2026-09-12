@@ -32,11 +32,17 @@ From the tree ensemble's feature importance analysis:
 ---
 
 ## 📁 Repository Structure
+
 ```text
 ├── data/
 │   └── WA_Fn-UseC_-Telco-Customer-Churn.csv  # Sourced from Kaggle BlastChar
+├── models/
+│   ├── churn_model.joblib                    # Serialized Random Forest classifier
+│   ├── scaler.joblib                         # Pre-fitted StandardScaler
+│   └── model_features.joblib                 # Feature column order alignment
 ├── notebooks/
 │   └── 01_churn_eda_and_baseline.ipynb       # End-to-end data pipeline & modeling
+├── app.py                                    # Interactive Streamlit dashboard
 ├── .gitignore
 ├── requirements.txt
 └── README.md
