@@ -1,5 +1,7 @@
 # 📉 Telco Customer Churn Prediction & Risk Analysis
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://telco-churn-astreaoa.streamlit.app)
+
 An end-to-end Machine Learning classification pipeline analyzing subscription attrition drivers and evaluating predictive models to detect churn-prone accounts.
 
 ---
