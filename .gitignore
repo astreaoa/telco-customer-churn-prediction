@@ -1,0 +1,16 @@
+# Virtual environment
+venv/
+env/
+
+# Jupyter Checkpoints & Python Cache
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Raw data files (prevent committing large data)
+data/*.csv
+data/raw/
+
+# System files
+.DS_Store
+Thumbs.db
